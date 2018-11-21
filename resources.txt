@@ -1,3 +1,4 @@
 https://www.quora.com/What-are-the-recent-paper-of-convolutional-neural-networks-CNN-for-optical-character-recognition-OCR
 https://hackernoon.com/latest-deep-learning-ocr-with-keras-and-supervisely-in-15-minutes-34aecd630ed8
 https://www.youtube.com/watch?v=uVbOckyUemo&feature=youtu.be
+https://www.tensorflow.org/tutorials/estimators/cnn
