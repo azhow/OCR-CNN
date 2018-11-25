@@ -3,3 +3,4 @@ https://hackernoon.com/latest-deep-learning-ocr-with-keras-and-supervisely-in-15
 https://www.youtube.com/watch?v=uVbOckyUemo&feature=youtu.be
 https://www.tensorflow.org/tutorials/estimators/cnn
 https://stackoverflow.com/questions/41181742/resources-containing-ocr-benchmark-test-sets-for-free
+http://cs231n.github.io/convolutional-networks/
