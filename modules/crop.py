@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import cv2
 import sys
+import os
 import numpy as np
 
 def mouseHandler(event,x,y,flags,param):
@@ -32,4 +33,7 @@ crop = im_src[int(pts_src[0][1]):int(pts_src[1][1]), int(pts_src[0][0]):int(pts_
 cv2.imshow("crop", crop)
 cv2.waitKey(0)
 
-cv2.imwrite("crop.png", crop)
+if not os.path.exists("./../results/"):
+    os.mkdir("./../results/")
+
+cv2.imwrite("./../results/crop.png", crop)

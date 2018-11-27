@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import cv2
 import sys
+import os
 import numpy as np
 
 def mouseHandler(event,x,y,flags,param):
@@ -46,4 +47,7 @@ im_dst = cv2.warpPerspective(im_src, tform,(width,height))
 cv2.imshow("Image", im_dst)
 cv2.waitKey(0)
 
-cv2.imwrite("new.png", im_dst)
+if not os.path.exists("./../results/"):
+    os.mkdir("./../results/")
+
+cv2.imwrite("./../results/homography.png", im_dst)
