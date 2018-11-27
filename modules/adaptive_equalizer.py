@@ -5,7 +5,7 @@ import sys
 import cv2
 import numpy as np
 
-img = cv2.imread(sys.argv[1])
+img = cv2.imread(sys.argv[1], 0)
 
 clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
 cl1 = clahe.apply(img)
