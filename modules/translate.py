@@ -9,10 +9,10 @@ import pytesseract
 
 def translate(input_string, dest_language):
     translator = Translator()
-    return translator.translate(input_string, dest=dest_language, src='auto')
+    return translator.translate(input_string, dest=dest_language, src='auto').text
 
 text = pytesseract.image_to_string(cv2.imread(sys.argv[1]))
-translated_text = translate(text, 'pt')
+translated_text = translate(text, "pt")
 
 print(translated_text)
 
