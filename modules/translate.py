@@ -2,7 +2,7 @@ import os
 import sys
 import cv2
 import numpy as np
-import from googletrans Translator
+from googletrans import Translator 
 import pytesseract
 
 #tradução do texto
@@ -14,5 +14,5 @@ def translate(input_string, dest_language):
 text = pytesseract.image_to_string(cv2.imread(sys.argv[1]))
 translated_text = translate(text, 'pt')
 
-
+print(translated_text)
 
