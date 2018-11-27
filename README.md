@@ -5,3 +5,4 @@ Final assignment of INF01030 @ UFRGS - BR
 * Python3
 * OpenCV
 * Numpy
+* GoogleTrans

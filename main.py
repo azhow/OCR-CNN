@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import argparse
 import modules.utils as utils
+import modules.translate
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
